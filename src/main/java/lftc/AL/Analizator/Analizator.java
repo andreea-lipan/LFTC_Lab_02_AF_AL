@@ -1,6 +1,7 @@
 package lftc.AL.Analizator;
 
 import lftc.AL.TAD.AtomHashMap;
+import lftc.AL.text.PrettyFilePrinter;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -51,9 +52,12 @@ public class Analizator {
 //        }
 //
 //        // Print output to file
-//        PrettyFilePrinter prettyFilePrinter = new PrettyFilePrinter();
-//        prettyFilePrinter.print(fip, tsConsts, tsIds, fileId);
 //    }
+
+    public void printToFile(String fileId) {
+        PrettyFilePrinter prettyFilePrinter = new PrettyFilePrinter();
+        prettyFilePrinter.print(fip, tsConsts, tsIds, fileId);
+    }
 
     public void readCoduri() {
         try {

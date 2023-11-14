@@ -141,10 +141,16 @@ public class Main {
                 }
             }
 
+
+
+            // print the fip & ts tabele
+            analizator.printToFile("1");
+
         } catch (FileNotFoundException ex) {
             System.out.println("File not found!");
             ex.printStackTrace();
         }
+
 
     }
 }
