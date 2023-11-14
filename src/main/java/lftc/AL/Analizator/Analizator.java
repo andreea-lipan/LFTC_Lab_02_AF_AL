@@ -82,7 +82,7 @@ public class Analizator {
         int contorFIP = 0;
         //for (String word : words) {
             System.out.println("word: " + word);
-            if (keywords.containsKey(word)) {
+            if ((secvType.equals("id") || secvType.equals("symbol")) && (keywords.containsKey(word))) {
                 System.out.println("keyword");
                 fip.add(new Atom(word, keywords.get(word).toString(), ""));
                 contorFIP++;

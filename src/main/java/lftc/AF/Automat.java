@@ -41,6 +41,9 @@ public class Automat {
 
     public void check(String secv) {
         longestSecv = "";
+        if (secv.startsWith("0b")) {
+            System.out.println("HERE");
+        }
 
         Stare stareCurenta = this.stareInitiala;
         for (int i = 0; i < secv.length(); i++) {

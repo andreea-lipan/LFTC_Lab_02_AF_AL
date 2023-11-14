@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main () {
-	int n, suma = 0;
+	int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbb;
 	cin >> n;
 	while (n) {
 		n = n - 1;
@@ -9,6 +9,6 @@ int main () {
 		cin >> nr;
 		suma = suma + nr;
 	}
-	cout << suma;
+	&cout << suma;
 	return 0;
 }

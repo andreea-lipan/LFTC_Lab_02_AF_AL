@@ -3,13 +3,13 @@
 
 |    NUME    | COD_TS |
 -----------------------
-|        -   |    -   |
+|      suma  |    0   |
 -----------------------
 |        -   |    -   |
 -----------------------
 |        -   |    -   |
 -----------------------
-|      suma  |    3   |
+|  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa  |    3   |
 -----------------------
 |        -   |    -   |
 -----------------------
@@ -21,7 +21,7 @@
 -----------------------
 |        -   |    -   |
 -----------------------
-|        -   |    -   |
+|       bbb  |    9   |
 -----------------------
 |        -   |    -   |
 -----------------------

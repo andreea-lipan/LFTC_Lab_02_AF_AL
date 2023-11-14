@@ -87,7 +87,7 @@ public class Main {
         Automat automatCONSTIntregi = new Automat("const");
         Automat automatCONSTReale = new Automat("const");
         Automat automatID = new Automat("id");
-        Automat automatSymbols = new Automat("symbols");
+        Automat automatSymbols = new Automat("symbol");
 
         // read automate
         AutomatReader automatReader = new AutomatReader();
@@ -106,6 +106,7 @@ public class Main {
         try {
             File file = new File(fileName);
             Scanner scanner = new Scanner(file);
+            int contorLinii = 1;
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
 
@@ -113,7 +114,6 @@ public class Main {
                 String longestSequence = "";
                 String secvType = "";
                 line = line.trim();
-
 
                 while (line.length() > 0) {
                     System.out.println("line: " + line);
@@ -131,13 +131,15 @@ public class Main {
                     //System.out.println("longestSequence: " + longestSequence + "  type : " + secvType);
                     if (longestSequence.isEmpty()) {
                         // its something we dont accept
-                        throw new RuntimeException("Bad input on the line: " + line);
+                        throw new RuntimeException("Bad input on the line: " + contorLinii);
                     } else  {
                         line = line.substring(longestSequence.length()); // remove the subsecventa from the line
                     }
                     analizator.analizeLine(longestSequence, secvType);
                     longestSequence = "";
                 }
+
+                contorLinii++;
             }
 
 
