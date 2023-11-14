@@ -1,2 +1,0 @@
-#include<iostream>
-using namespace std;int main (){int a;cin>>raza;cout<<2*3.14*raza;cout<<3.14*raza*raza;return 0;}

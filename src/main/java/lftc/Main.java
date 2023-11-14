@@ -80,10 +80,9 @@ public class Main {
 //            e.printStackTrace();
 //        }
 
-        String fileName = "C:\\Users\\deeal\\UNI\\LFTC\\LFTC_Lab_02_AF_AL\\src\\main\\resources\\programs\\01\\program_01.txt";
-        //String fileName = "C:\\Users\\deeal\\UNI\\LFTC\\LFTC_Lab_02_AF_AL\\src\\main\\resources\\programs\\02\\program_02.txt";
-        //String fileName = "C:\\Users\\deeal\\UNI\\LFTC\\LFTC_Lab_02_AF_AL\\src\\main\\resources\\programs\\03\\program_03.txt";
-
+        // id for the example files, can be 1 / 2 / 3
+        String fileID = "1";
+        String fileName = "programs\\0" + fileID + "\\program_0"+ fileID +".txt";
 
         Automat automatCONSTIntregi = new Automat("const");
         Automat automatCONSTReale = new Automat("const");
@@ -144,7 +143,7 @@ public class Main {
 
 
             // print the fip & ts tabele
-            analizator.printToFile("1");
+            analizator.printToFile(fileID);
 
         } catch (FileNotFoundException ex) {
             System.out.println("File not found!");
