@@ -1,0 +1,33 @@
+, ; ( ) { } + - * / % ! = < > # i n c l u d e
+s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15
+s0
+s1 s3 s6 s7 s15 s2 s4 s5
+s0 , s1
+s0 ; s1
+s0 ( s1
+s0 ) s1
+s0 { s1
+s0 } s1
+s0 + s1
+s0 - s1
+s0 * s1
+s0 / s1
+s0 % s1
+s0 ! s2
+s0 = s2
+s2 = s3
+s0 < s4
+s0 > s5
+s4 < s6
+s4 = s6
+s5 > s7
+s5 = s7
+s0 # s8
+s8 i s9
+s9 n s10
+s10 c s11
+s11 l s12
+s12 u s13
+s13 d s14
+s14 e s15
+done
